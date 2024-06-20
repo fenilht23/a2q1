@@ -10,7 +10,6 @@
 
 # production
 /package-lock.json
-/package.json
 /README.md
 /public/index.html
 /src/App.js
