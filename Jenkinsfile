@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Run App') {
             steps {
-                bat "\"${npx}\" serve -s build"
+                bat "\"${npm}\" start"
             }
         }
     }
