@@ -4,6 +4,7 @@ pipeline {
     environment {
         nodejs = 'C:\\Program Files\\nodejs\\node.exe'
         npm = 'C:\\Program Files\\nodejs\\npm.cmd'
+        npx = 'C:\\Program Files\\nodejs\\npx.cmd'
     }
 
     stages {
@@ -19,7 +20,7 @@ pipeline {
         }
         stage('Run App') {
             steps {
-                bat "serve -s build"
+                bat "\"${npx}\" serve -s build"
             }
         }
     }
