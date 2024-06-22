@@ -5,7 +5,7 @@ const ChildComponent = ({ count, setCount }) => {
         <h1>Child Component</h1>
       </div>
       <div class="card-body">
-        <h5 class="card-title">Counter Demo  :- {count}</h5>
+        <h5 class="card-title">Counter Example...................  :- {count}</h5>
       </div>
     </div>
   )
